@@ -44,27 +44,28 @@ const Catalog = () => {
                     <img src='products/salads/salad_1.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_2.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_3.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_4.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_5.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_2.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_3.png' alt="salad"></img>
                 </div>
                 <div className="product">
-                    <img src='products/salads/salad_1.png' alt="salad"></img>
+                    <img src='products/salads/salad_4.png' alt="salad"></img>
                 </div>
             </div>
+            <button className="more">Показать ещё</button>
         </div>
     )
 }   
