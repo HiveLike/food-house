@@ -53,8 +53,18 @@
     justify-content: center;
     align-items: center;
 
+    color: #232323;
+
     background-color: #E9F8FB;
     border-radius: 16px;
+
+    cursor:pointer;
+
+    border:none;
+}
+.type_block:hover{
+    background-color: #FE8C01;
+    color:#fff;
 }
 .type_block.active{
     background-color: #FE8C01;
@@ -65,8 +75,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
-
-    color: #232323;
 }
 .type_name.active{
     color:#fff;
@@ -95,6 +103,7 @@
     height: 64px;
 
     margin-top:60px;
+    margin-bottom:40px;
 
     background: #E9F8FB;
     border-radius: 100px;
@@ -109,4 +118,55 @@
     line-height: 24px;
 
     color: #232323;
+}
+
+.prod_description{
+    position:relative;
+    bottom:180px;
+    left:30px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+
+    color: #FFFFFF;
+}
+.prod_description h1{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 800;
+}
+.prod_description h2{
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 600;
+
+    margin-top:8px;
+}
+.prod_description h3{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+
+    margin-top:10px;
+}
+
+.prod_buy_button{
+    outline: none;
+    background-color: transparent;
+    border:none;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+
+    margin-top:25px;
+    margin-left:26px;
+    cursor:pointer;
+}
+.prod_buy_button:hover{
+    transform: scale(1.02);
 }
