@@ -170,3 +170,15 @@
 .prod_buy_button:hover{
     transform: scale(1.02);
 }
+
+.filter_svg{
+    width: 150px;
+    height: 150px;
+    fill: #232323;
+    color:#232323;
+    stroke: #232323;
+}
+.type_block:hover .filter_svg{
+    stroke: #fff;
+    fill: #fff;
+}

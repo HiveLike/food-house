@@ -1,20 +1,6 @@
 import { CATEGORIES } from "../../types/categories";
 
-import salad from '../../assets/catalog/filter/salad.svg'
-import drink from '../../assets/catalog/filter/drink.svg'
-import burger from '../../assets/catalog/filter/hamburger.svg'
-import snacks from '../../assets/catalog/filter/snacks.svg'
-import pizza from '../../assets/catalog/filter/pizza.svg'
-import promotion from '../../assets/catalog/filter/discount.svg'
-
-const CATEGORIES_ICON = new Map([
-    ['Салаты', salad],
-    ['Напитки', drink],
-    ['Бургеры', burger],
-    ['Закуски', snacks],
-    ['Пицца', pizza],
-    ['Акции', promotion],
-]);
+import { discount_icon, drink_icon, hamburger_icon, pizza_icon, salad_icon, snacks_icon } from "../../icons/Catalog_svg";
 
 const Filter = ({items, setFilteredItems }) => {
 
@@ -45,12 +31,55 @@ const Filter = ({items, setFilteredItems }) => {
         }
     }
 
+    const iconThis = (type) => {
+        switch (type) {
+            case "Салаты":
+                return (
+                    salad_icon()
+                )
+                break; 
+            case "Напитки": 
+                return (
+                    drink_icon()
+                )
+                break; 
+            case "Бургеры": 
+                return (
+                    hamburger_icon()
+                )
+                break; 
+            case "Закуски": 
+                return (
+                    snacks_icon()
+                )
+                break; 
+            case "Пицца": 
+                return (
+                    pizza_icon()
+                )
+                break; 
+            case "Акции": 
+                return (
+                    discount_icon()
+                )
+                break;
+            default:
+                return (
+                    salad_icon()
+                )
+        }
+    }
+
     const Buttons = Object.keys(CATEGORIES).map((type) => {
         return (
+            //<button key={type} onClick={() => onClickFilterHandle(type)} className="type_block">
+            //    <img src={CATEGORIES_ICON.get(CATEGORIES[type])} alt={CATEGORIES[type]}/>
+            //    <div className="type_name">{CATEGORIES[type]}</div>
+            //</button>             
             <button key={type} onClick={() => onClickFilterHandle(type)} className="type_block">
-                <img src={CATEGORIES_ICON.get(CATEGORIES[type])} alt={CATEGORIES[type]}/>
+                {iconThis(CATEGORIES[type])}
                 <div className="type_name">{CATEGORIES[type]}</div>
-            </button>            
+            </button>   
         )
     });
 
