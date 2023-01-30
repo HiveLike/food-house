@@ -126,7 +126,7 @@ export const PRODUCTS = [
     {
         id:13,
         category: CATEGORIES.snacks,
-        name: "Добрый Апельсин (мал.)",
+        name: "Сырные треугольники",
         weight: 300,
         protein:316,
         fats: 11,
@@ -136,7 +136,7 @@ export const PRODUCTS = [
     {
         id:14,
         category: CATEGORIES.snacks,
-        name: "Добрый Апельсин (мал.)",
+        name: "Картофель Фри",
         weight: 300,
         protein:316,
         fats: 11,
@@ -147,7 +147,7 @@ export const PRODUCTS = [
     {
         id:15,
         category: CATEGORIES.burger,
-        name: "Добрый Апельсин (мал.)",
+        name: "Гранд Три Сыра",
         weight: 300,
         protein:316,
         fats: 11,
@@ -157,7 +157,7 @@ export const PRODUCTS = [
     {
         id:16,
         category: CATEGORIES.burger,
-        name: "Добрый Апельсин (мал.)",
+        name: "Чикен Хит Халапеньо",
         weight: 300,
         protein:316,
         fats: 11,
@@ -168,7 +168,7 @@ export const PRODUCTS = [
     {
         id:17,
         category: CATEGORIES.pizza,
-        name: "Добрый Апельсин (мал.)",
+        name: "Pizza1",
         weight: 300,
         protein:316,
         fats: 11,
@@ -178,7 +178,7 @@ export const PRODUCTS = [
     {
         id:18,
         category: CATEGORIES.pizza,
-        name: "Добрый Апельсин (мал.)",
+        name: "Pizza",
         weight: 300,
         protein:316,
         fats: 11,
